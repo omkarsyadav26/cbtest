@@ -1,0 +1,13 @@
+version: 0.2
+ 
+phases:
+  install:
+    commands:
+      - echo No installation needed for static files.
+  build:
+    commands:
+      - echo No build step required for static files.
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
